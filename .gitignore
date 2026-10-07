@@ -1,0 +1,34 @@
+# This is a public repository. Never commit confidential, restricted, identifiable,
+# or uncleared research material. These rules are an accidental-upload safeguard,
+# not a security boundary; review files before committing.
+
+# Raw or respondent-level survey material (keep outside GitHub)
+**/raw/**
+**/raw-survey-data/**
+**/raw_survey_data/**
+**/survey-raw/**
+**/survey_raw/**
+**/*raw-survey*
+**/*raw_survey*
+**/*respondent-level*
+**/*respondent_level*
+**/*survey-responses*
+**/*survey_responses*
+**/*participant-data*
+**/*participant_data*
+
+# Spreadsheet workbooks are ignored by default; use the Database repository for
+# reviewed, shareable aggregate data (prefer documented CSV). Do not force-add
+# raw or identifiable workbooks.
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+~$*.xls*
+
+# Local/editor/OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
